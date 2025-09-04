@@ -1,0 +1,11 @@
+package com.example.college_explorer.repository;
+
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.example.college_explorer.model.GalleryImage;
+
+@Repository
+public interface GalleryImageRepository extends JpaRepository<GalleryImage, Long> {
+}
